@@ -1,3 +1,5 @@
+@import './antd.css';
+
 .App {
   text-align: center;
 }
@@ -35,4 +37,20 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.difilter-item-wrap {
+  display: inline-block;
+  margin: 2px 10px 2px 0;
+}
+
+.func-title {
+  margin-bottom: 5px;
+  display: inline-block;
+  font-weight: 600;
+  width: 120px;
+  vertical-align: top;
+  /* color: #1e1e1e; */
+  /* color: #8e6758; */
+  /* color: #f63160; */
 }
