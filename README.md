@@ -22,13 +22,9 @@ import DiInput from './di-component/DiInput';
 
 <DiInput pre required />
 ```
-并且大多数属性都可以继承，并新增了部分自定义的属性，如isSearch={true}时可增加
-<br/>
-Search图标和按下回车的回调
+并且大多数属性都可以继承，并新增了部分自定义的属性，如isSearch={true}时可增加Search图标和按下回车的回调
 
-2.录入数据的功能，将数据按照规定的格式封装好放入data属性中，可以直接生成，并且封装了
-<br/>
-多层Select的级联选项
+2.录入数据的功能，将数据按照规定的格式封装好放入data属性中，可以直接生成，并且封装了多层Select的级联选项
 
 ```
 const options = [
