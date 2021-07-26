@@ -1,7 +1,7 @@
 import './App.css';
 import "./index.css";
 import { Button, version } from "antd";
-import DiInput from './biz-dumb/DiInput';
+import DiInput from './di-component/DiInput';
 import React, { useState } from 'react';
 
 function App() {
